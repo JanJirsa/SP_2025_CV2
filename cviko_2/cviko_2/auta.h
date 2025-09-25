@@ -1,6 +1,6 @@
 #pragma once
 
-#include <stdio.h>
+#include "stdio.h"
 #include "stdlib.h"
 
 #define MAX_NAME_LEN					32
@@ -51,7 +51,7 @@ typedef struct
 }KARTOTEKA;
 
 
-void pridej_auto(KARTOTEKA * kartoteka, AUTO * auto);
-void smaz_auto(AUTO * auto, int index);
+void pridej_auto(KARTOTEKA * kartoteka, AUTO * auticko);
+void smaz_auto(AUTO * auticko, int index);
 
 
