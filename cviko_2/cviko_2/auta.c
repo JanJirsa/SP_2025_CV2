@@ -2,10 +2,10 @@
 
 
 
-void pridej_auto(KARTOTEKA* karoteka, AUTO *auto)
+void pridej_auto(KARTOTEKA* karoteka, AUTO *auticko)
 {
 
-
+	///komentar
 }
 
 
