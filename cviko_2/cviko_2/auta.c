@@ -7,7 +7,7 @@
 void pridej_auto(KARTOTEKA* karoteka, AUTO *auticko)
 {
 
-
+	ihhokj
 }
 
 
