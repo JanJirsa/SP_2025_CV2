@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 
-void pridej_auto(KARTOTEKA* karoteka, AUTO *autickoautickoauticko)
+void pridej_auto(KARTOTEKA* karoteka, AUTO *auticko)
 {
 
 
 }
 
 
-void smaz_auto(AUTO autickoautickoautickoauticko, int * index)
+void smaz_auto(AUTO auticko, int * index)
 {
 
 }
