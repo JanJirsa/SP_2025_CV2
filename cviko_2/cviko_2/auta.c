@@ -2,14 +2,14 @@
 
 
 
-void pridej_auto(KARTOTEKA* karoteka, AUTO *auto)
+void pridej_auto(KARTOTEKA* karoteka, AUTO *auticko)
 {
 
 
 }
 
 
-void smaz_auto(AUTO auto, int * index)
+void smaz_auto(AUTO auticko, int * index)
 {
 
-}
+}kolokolomlynksé
