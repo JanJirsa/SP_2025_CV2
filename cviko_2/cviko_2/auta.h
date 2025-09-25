@@ -53,10 +53,4 @@ typedef struct
 
 void pridej_auto(KARTOTEKA * kartoteka, AUTO * auticko);
 void smaz_auto(AUTO * auticko, int index);
-<<<<<<< HEAD
-=======
 
->>>>>>> remotes/origin/master
-
-//menuju se david VAnguard
-//jhg
