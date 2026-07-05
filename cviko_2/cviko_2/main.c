@@ -90,6 +90,7 @@ void smazAuto() {
 }
 
 int main() {
+    // toto je pokusný komentar
     // Inicializace kartotéky
     kartoteka.head.verze = 1.0f;
     kartoteka.head.pocet_aut = 0;
