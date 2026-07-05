@@ -5,10 +5,10 @@
 
 #define MAX_AUT 100
 
-// Globální kartotéka
+// Globï¿½lnï¿½ kartotï¿½ka
 KARTOTEKA kartoteka;
 
-// Jednoduchý výpis všech aut (aby bylo vidìt indexy)
+// Jednoduchï¿½ vï¿½pis vï¿½ech aut (aby bylo vidï¿½t indexy)
 void vypisAuta() {
     if (kartoteka.head.pocet_aut == 0) {
         printf("\nKartoteka je prazdna.\n");
@@ -26,7 +26,7 @@ void vypisAuta() {
     printf("\n");
 }
 
-// Pøidání auta na konec pole
+// Pï¿½idï¿½nï¿½ auta na konec pole
 void pridejAuto() {
     if (kartoteka.head.pocet_aut >= MAX_AUT) {
         printf("Kartoteka je plna!\n");
@@ -65,7 +65,7 @@ void pridejAuto() {
     printf("Auto bylo pridano!\n");
 }
 
-// Smazání auta podle indexu (posun zbytku doleva)
+// Smazï¿½nï¿½ auta podle indexu (posun zbytku doleva)
 void smazAuto() {
     if (kartoteka.head.pocet_aut == 0) {
         printf("Neni co mazat, kartoteka je prazdna.\n");
@@ -90,8 +90,9 @@ void smazAuto() {
 }
 
 int main() {
-    // toto je pokusný komentar
-    // Inicializace kartotéky
+    printf("tralala");
+    // toto je pokusnï¿½ komentar
+    // Inicializace kartotï¿½ky
     kartoteka.head.verze = 1.0f;
     kartoteka.head.pocet_aut = 0;
     kartoteka.data = (AUTO*)malloc(sizeof(AUTO) * MAX_AUT);
@@ -100,7 +101,7 @@ int main() {
         return 1;
     }
 
-    // Hlavní smyèka menu
+    // Hlavnï¿½ smyï¿½ka menu
     while (1) {
         int volba;
 
@@ -134,7 +135,7 @@ int main() {
         }
     }
 
-    // Uvolnìní pamìti
+    // Uvolnï¿½nï¿½ pamï¿½ti
     free(kartoteka.data);
     return 0;
 }
