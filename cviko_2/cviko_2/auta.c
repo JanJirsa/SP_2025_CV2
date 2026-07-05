@@ -6,7 +6,7 @@
 
 void pridej_auto(KARTOTEKA* karoteka, AUTO *auticko)
 {
-
+ int x = 6;
 }
 
 
